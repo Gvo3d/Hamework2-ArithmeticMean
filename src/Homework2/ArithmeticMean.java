@@ -1,7 +1,8 @@
 package Homework2;
 /**
- Made by Yakimov Denis, 08/11/2015 for Hillel Java course       Homework 2
+ * Made by Yakimov Denis, 08/11/2015 for Hillel Java course       Homework 2
  */
+
 import java.util.Scanner;
 
 public class ArithmeticMean {
