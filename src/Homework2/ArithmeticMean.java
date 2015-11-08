@@ -1,10 +1,10 @@
-package Arithmetic_mean;
+package Homework2;
 /**
  Made by Yakimov Denis, 08/11/2015 for Hillel Java course       Homework 2
  */
 import java.util.Scanner;
 
-public class Application {
+public class ArithmeticMean {
     public static void main(String[] args) {
         System.out.println("Arithetic mean");
         System.out.println("For Hillel Java Courses by Yakimov Denis");
