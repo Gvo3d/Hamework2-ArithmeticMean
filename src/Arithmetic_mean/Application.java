@@ -1,5 +1,7 @@
 package Arithmetic_mean;
-
+/**
+ Made by Yakimov Denis, 08/11/2015 for Hillel Java course       Homework 2
+ */
 import java.util.Scanner;
 
 public class Application {
@@ -11,10 +13,11 @@ public class Application {
         int NumberCount = 0;
         String EndFlag;
 
+        //Main while-loop without break
         while (true) {
             Scanner InputScanner = new Scanner(System.in);
             EndFlag = InputScanner.nextLine();
-            EndFlag=EndFlag.toUpperCase();
+            EndFlag = EndFlag.toUpperCase();
             if (InputScanner.hasNextLong()) {
                 SumOfAllNumbers = SumOfAllNumbers + InputScanner.nextLong();
                 NumberCount++;
