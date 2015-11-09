@@ -5,9 +5,9 @@ import java.util.Scanner;
 /**
  * Created by ITHILLEL7 on 09.11.2015.
  */
-public class RealNum {
+public class Equals {
     public static void main(String[] args) {
-        System.out.println("RealNumber");
+        System.out.println("EqualNumber");
         System.out.println("Made by Yakimov Denis for Hillel Java Courses.");
         int number = 0;
 
@@ -19,8 +19,11 @@ public class RealNum {
             } else System.out.println("Error in data input, reinput number!");
         }
 
-        for (int i = 2; i<=number; i++){
-            if (number % i==0) System.out.println("Number "+number+" can be divided to "+i+"!");
+        for (int i = 2; i<number; i++){
+            if (number % i==0) {
+                System.out.println("Number is not real!");
+                System.exit(0);}
         }
+        System.out.println("Number is real!");
     }
 }
